@@ -1,0 +1,44 @@
+/* ==================================================================== */
+/*                             Overlay                                  */
+/* ==================================================================== */
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4);
+}
+
+.modal {
+    width: 375px;
+    margin: 15% auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+
+    &-close {
+        position: absolute;
+        font-weight: 800;
+        background-color: white;
+        color: #949494;
+        border: none;
+        right: 10px;
+        top: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color .4s ease; 
+    }
+
+    &-close:focus, &-close:hover {
+        background-color: rgba(50, 50, 50, 0.9); 
+    }
+}
+
+.hidden {
+    display: none;
+}

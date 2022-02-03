@@ -1,0 +1,28 @@
+@import 'base/_index.scss',
+        'components/_index.scss',
+        'layout/_index.scss';
+
+/* ==================================================================== */
+/*                          body Layout                                 */
+/* ==================================================================== */
+
+body {
+    position: relative;
+}
+
+main,
+header {
+    width: 95%;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 25px;
+    padding-bottom: 100%;
+}

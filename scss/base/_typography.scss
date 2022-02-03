@@ -1,0 +1,26 @@
+/* ==================================================================== */
+/*                         Typography                                   */
+/* ==================================================================== */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+h2, p {
+    margin: 0;
+}
+h1{
+    font-size: 1.30em;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 1.1em;
+}
+
+p {
+    font-size: .90em;
+    font-weight: 400;
+    color: #B8B8B8;
+    margin-top: 5px;
+}
